@@ -12,4 +12,4 @@ The main page consists of sections that flow together easily as the user/client 
 
   - The Main Page will also display other company information such as Link to Career Page, Newsletter Sign Up, Become a Buyer Form, Background Slideshow, etc. 
 
-  -A lot of the backend work, using Javascript, is utilized in gathering information from forms and displaying them appropriately where they need to go, rules for inputs, JQuery for filters, event listeners, etc.
+  - A lot of the backend work, using Javascript, is utilized in gathering information from forms and displaying them appropriately where they need to go, rules for inputs, JQuery for filters, event listeners, etc.
