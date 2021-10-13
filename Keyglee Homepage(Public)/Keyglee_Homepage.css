@@ -3,6 +3,14 @@ html,body{
   overflow-y: auto;
 }
 
+/* Keyglee Dispo Title - Nav Bar */
+
+li.topTitle {
+  text-align: center;
+  width: 14%;
+  margin-left: 18%;
+}
+
 /* Map */
 
 #map-container {
@@ -66,11 +74,7 @@ li#navLogin.navItem {
   
 }
 
-#navLogin.navItem {
-  width: 40%;
-    text-align: center;
-    margin-right: 0%;
-}
+
 
 #locations-panel-list > header {
   padding: 1.4em 1.4em 0 1.4em;
@@ -409,17 +413,22 @@ button.details-button:hover {
   font-style: italic;
 }
 
+/* Map End */
 
+/* Body color and center */
 body {
 background-color:#215576;
 margin: 0px;
 }
 
+/* Nav Bar stays on top */
 nav {
   position: absolute;
     width: 100%;
     z-index: 2;
 }
+/* ---------- */
+
 
 .pageBody {
     display: flex;
@@ -935,6 +944,33 @@ form {
 top:2em;
 left:12.5em;
   }
+
+  li.topTitle {
+    margin-left: 9%;
+  }
+
+  .rowPanel4{
+    margin-top: 488px;
+}
+
+.innerVideo {
+  height: 38%
+}
+
+.bottomPhotoPanel {
+  position: absolute;
+  opacity: .9;
+}
+
+.careerBody {
+  z-index: 1;
+}
+
+footer {
+  top: 508px;
+  height: 5em;
+  margin-top: 30px;
+}
     }
 
 
@@ -993,13 +1029,7 @@ left:12.5em;
   color:tomato;
 }
 
-/* Keyglee Dispo Title - Nav Bar */
 
-li.topTitle {
-    text-align: center;
-    width: 14%;
-    margin-left: 18%;
-}
 
 /* Panels on Homepage */
 
@@ -1157,7 +1187,7 @@ li.topTitle {
   }
 
 
-
+/* Arrow Animations End */
 
 
 
@@ -1514,6 +1544,8 @@ li.topTitle {
         flex-direction: column;
       
       }
+
+      /* Footer End */
       
       
       /* Hamburger Menu Start */
@@ -1765,9 +1797,7 @@ li.topTitle {
       letter-spacing: 0.04em;
     }
     
-      footer {
-        top: 575px;
-      }
+
       img.logo {
         height:75px;
       }
@@ -2608,261 +2638,261 @@ footer {
         display: none;
       }
       
-      /* Hamburger Menu Finish */
-      
-            /*footer social media icons*/
-            .socialList li a {
-              position: relative;
-              width: 38px;
-              height: 34px;
-              display: block;
-              text-align: center;
-              border-radius: 50%;
-              padding: 0px;
-              box-sizing: border-box;
-              text-decoration: none;
-              background: linear-gradient( 
-          0deg
-           , #ddd, #fff);
-              transition: .75s;
-            }
-            
-      
-            
-            /*social media icons themselves*/
-            .socialList li a .fa {
-              width: 100%;
-              height: 100%;
-              display: contents;
-              background: linear-gradient(
-          0deg
-          , #fff, #ddd);
-              border-radius: 50%;
-              line-height: calc(60px - 25px);
-              font-size: 22px;
-              color: #262626;
-              transition: .5s;
-            }
-      }
-      
-          
-      
-          
+    /* Hamburger Menu Finish */
+  
+        /*footer social media icons*/
+        .socialList li a {
+          position: relative;
+          width: 38px;
+          height: 34px;
+          display: block;
+          text-align: center;
+          border-radius: 50%;
+          padding: 0px;
+          box-sizing: border-box;
+          text-decoration: none;
+          background: linear-gradient( 
+      0deg
+        , #ddd, #fff);
+          transition: .75s;
+        }
+        
+  
+        
+        /*social media icons themselves*/
+        .socialList li a .fa {
+          width: 100%;
+          height: 100%;
+          display: contents;
+          background: linear-gradient(
+      0deg
+      , #fff, #ddd);
+          border-radius: 50%;
+          line-height: calc(60px - 25px);
+          font-size: 22px;
+          color: #262626;
+          transition: .5s;
+        }
+  }
+  
+        
     
-    .instaPost {
-    position: absolute;
+        
+  
+  .instaPost {
+  position: absolute;
+  }
+  
+  /* TopNav */
+  
+  /*css for the autoblast title above the table*/
+  .blast {
+  text-decoration: underline;
+  margin-right: 10%;
+  }
+  
+  /*css for the date that appears next to the autoblast*/
+  .date {
+  text-decoration: underline;
+  margin-left: 10%;
+  }
+  
+  /*navigation bar css*/
+  .navigation {
+  display: flex;
+  background-color: #32424c4f;
+  overflow: hidden;
+  align-items: center;
+  height: 70px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid white;
+  }
+  
+  /*css for each separate item in the nav bar*/
+  .navItem {
+  float:left;
+  padding: 2% 1% 2% 1%;
+  position: relative;
+  list-style: none;
+  }
+  
+  /*css for when an option in the navbar is hovered over*/
+  .navItem:hover, .login:hover{
+  cursor: pointer;
+  color: #e4405f;
+  }
+  
+  /*to format the text in the navbar*/
+  .navItem a {
+  color: white;
+  position: relative;
+  }
+  
+  .navItem a:hover {
+  color: #e4405f;
+  }
+  
+  /*general css for the Trinity title and Log In button*/
+  .navigationTitle {
+  display: flex;
+  align-items: center;
+  }
+  
+  /*css for the Log In link*/
+  .login {
+  color: white;
+  text-decoration: none;
+  padding: 6% 3% 6% 3%;
+  }
+  
+  /*css for the hoverable dropdown menu*/
+  .dropdown {
+  float: left;
+  overflow: hidden;
+  padding: 2% 1% 2% 1%;
+  width: 11%;
+  }
+  
+  /*css for the actual drop down button*/
+  .dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  list-style: none;
+  }
+  
+  /*changes the color of the navbar contents, dropdown button, and dropbutton when hovered*/
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropdown:hover {
+  color: #e4405f;
+  }
+  
+  /*css for the dropdown menu options*/
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  
+  /*css for the contents in each menu option*/
+  .dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  }
+  
+  /*modifies the look of the dropdown menu choices when hovered over*/
+  .dropdown-content a:hover {
+  background-color: rgb(0, 150, 150);
+  }
+  
+  /*displays the hidden dropdown menu content*/
+  .dropdown:hover .dropdown-content {
+  display: block;
+  
+  }
+  
+  /*css for the popup window background that grays everything else out*/
+  .popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /*css that makes the actual popup window*/
+  .popupContent {
+  background-color: white;
+  margin: auto;
+  padding: 1% 1% 1% 1%;
+  border: 1px solid black;
+  width: 25%;
+  }
+  
+  /*css for the top bar of the popup, the "Emails" title and the X*/
+  .popupTop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0%;
+  }
+  
+  /*simply changes the cursor to the appropriate pointer when hovering the closing X*/
+  span:hover {
+  cursor: pointer;
+  }
+  
+  /*first icon*/
+  
+  .socialList li:nth-child(1) a:hover .fa {
+  color: #e4405f;
+  box-shadow: 0px 0px 15px 9px #e4405f;
+  }
+  
+  /*first icon*/
+  .socialList li:nth-child(2) a:hover .fa {
+  color: #4267B2;
+  box-shadow: 0px 0px 15px 12px #4267B2;
+  }
+  
+  /*third icon*/
+  .socialList li:nth-child(3) a:hover .fa {
+  color: #1DA1F2;
+  box-shadow: 0px 0px 15px 9px #1DA1F2;
+  }
+  
+    /*fourth icon*/
+    .socialList li:nth-child(4) a:hover .fa {
+      color: #eb8f18;
+      box-shadow: 0px 0px 15px 9px #eb8f18;
     }
-    
-    /* TopNav */
-    
-    /*css for the autoblast title above the table*/
-    .blast {
-    text-decoration: underline;
-    margin-right: 10%;
+  
+  /*first icon*/
+  
+  .socialList li:nth-child(1) a:hover{
+  color: #e4405f;
+  box-shadow: 0px 0px 15px 9px #e4405f;
+  }
+  
+  /*first icon*/
+  .socialList li:nth-child(2) a:hover{
+  color: #4267B2;
+  box-shadow: 0px 0px 15px 12px #4267B2;
+  }
+  
+  /*third icon*/
+  .socialList li:nth-child(3) a:hover{
+  color: #1DA1F2;
+  box-shadow: 0px 0px 15px 9px #1DA1F2;
+  }
+  
+    /*fourth icon*/
+    .socialList li:nth-child(4) a:hover{
+      color: #eb8f18;
+      box-shadow: 0px 0px 15px 9px #eb8f18;
     }
-    
-    /*css for the date that appears next to the autoblast*/
-    .date {
-    text-decoration: underline;
-    margin-left: 10%;
-    }
-    
-    /*navigation bar css*/
-    .navigation {
-    display: flex;
-    background-color: #32424c4f;
-    overflow: hidden;
-    align-items: center;
-    height: 70px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid white;
-    }
-    
-    /*css for each separate item in the nav bar*/
-    .navItem {
-    float:left;
-    padding: 2% 1% 2% 1%;
-    position: relative;
-    list-style: none;
-    }
-    
-    /*css for when an option in the navbar is hovered over*/
-    .navItem:hover, .login:hover{
-    cursor: pointer;
-    color: #e4405f;
-    }
-    
-    /*to format the text in the navbar*/
-    .navItem a {
-    color: white;
-    position: relative;
-    }
-    
-    .navItem a:hover {
-    color: #e4405f;
-    }
-    
-    /*general css for the Trinity title and Log In button*/
-    .navigationTitle {
-    display: flex;
-    align-items: center;
-    }
-    
-    /*css for the Log In link*/
-    .login {
-    color: white;
-    text-decoration: none;
-    padding: 6% 3% 6% 3%;
-    }
-    
-    /*css for the hoverable dropdown menu*/
-    .dropdown {
-    float: left;
-    overflow: hidden;
-    padding: 2% 1% 2% 1%;
-    width: 11%;
-    }
-    
-    /*css for the actual drop down button*/
-    .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    list-style: none;
-    }
-    
-    /*changes the color of the navbar contents, dropdown button, and dropbutton when hovered*/
-    .navbar a:hover, .dropdown:hover .dropbtn, .dropdown:hover {
-    color: #e4405f;
-    }
-    
-    /*css for the dropdown menu options*/
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: gray;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    }
-    
-    /*css for the contents in each menu option*/
-    .dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    }
-    
-    /*modifies the look of the dropdown menu choices when hovered over*/
-    .dropdown-content a:hover {
-    background-color: rgb(0, 150, 150);
-    }
-    
-    /*displays the hidden dropdown menu content*/
-    .dropdown:hover .dropdown-content {
-    display: block;
-    
-    }
-    
-    /*css for the popup window background that grays everything else out*/
-    .popup {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 10%;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.4);
-    }
-    
-    /*css that makes the actual popup window*/
-    .popupContent {
-    background-color: white;
-    margin: auto;
-    padding: 1% 1% 1% 1%;
-    border: 1px solid black;
-    width: 25%;
-    }
-    
-    /*css for the top bar of the popup, the "Emails" title and the X*/
-    .popupTop {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0%;
-    }
-    
-    /*simply changes the cursor to the appropriate pointer when hovering the closing X*/
-    span:hover {
-    cursor: pointer;
-    }
-    
-    /*first icon*/
-    
-    .socialList li:nth-child(1) a:hover .fa {
-    color: #e4405f;
-    box-shadow: 0px 0px 15px 9px #e4405f;
-    }
-    
-    /*first icon*/
-    .socialList li:nth-child(2) a:hover .fa {
-    color: #4267B2;
-    box-shadow: 0px 0px 15px 12px #4267B2;
-    }
-    
-    /*third icon*/
-    .socialList li:nth-child(3) a:hover .fa {
-    color: #1DA1F2;
-    box-shadow: 0px 0px 15px 9px #1DA1F2;
-    }
-    
-      /*fourth icon*/
-      .socialList li:nth-child(4) a:hover .fa {
-        color: #eb8f18;
-        box-shadow: 0px 0px 15px 9px #eb8f18;
-      }
-    
-    /*first icon*/
-    
-    .socialList li:nth-child(1) a:hover{
-    color: #e4405f;
-    box-shadow: 0px 0px 15px 9px #e4405f;
-    }
-    
-    /*first icon*/
-    .socialList li:nth-child(2) a:hover{
-    color: #4267B2;
-    box-shadow: 0px 0px 15px 12px #4267B2;
-    }
-    
-    /*third icon*/
-    .socialList li:nth-child(3) a:hover{
-    color: #1DA1F2;
-    box-shadow: 0px 0px 15px 9px #1DA1F2;
-    }
-    
-      /*fourth icon*/
-      .socialList li:nth-child(4) a:hover{
-        color: #eb8f18;
-        box-shadow: 0px 0px 15px 9px #eb8f18;
-      }
-    
+  
 
-      .rightsReserved {
-        color: #ffffffab;
-        cursor: auto;
-        position: absolute;
-        bottom: .3em;
-        font-size: .8em;
-        right: 5em;
-      }
+    .rightsReserved {
+      color: #ffffffab;
+      cursor: auto;
+      position: absolute;
+      bottom: .3em;
+      font-size: .8em;
+      right: 5em;
+    }

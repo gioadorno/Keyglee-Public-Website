@@ -380,7 +380,7 @@ var height = 250;
         }
 
         detailsButton.addEventListener("click", openDetails);
-        backButton.addEventListener("click", closeDetails)
+        backButton.addEventListener("click", closeDetails);
 
 
         //Filter through Left Panel List
